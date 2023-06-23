@@ -1,0 +1,5 @@
+require("packer").startup(function(use)
+	use("wbthomason/packer.nvim")
+end)
+require("jeff.remap")
+require("jeff.set")
